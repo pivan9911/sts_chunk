@@ -1,0 +1,135 @@
+
+	Used variables:
+	MAVEN_JAVA_HOME =	C:\Program Files\OSS\SunJDK17055
+	M2_HOME		=	C:\Program Files\maven\apache-maven-3.2.5
+
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building KDU CASSR Management 1.1.0.31-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: http://maven-repository.ubs.net/com/ubs/KDU/KDU_CommonTest/1.1.0.31-SNAPSHOT/maven-metadata.xml
+784/784 B               Downloaded: http://maven-repository.ubs.net/com/ubs/KDU/KDU_CommonTest/1.1.0.31-SNAPSHOT/maven-metadata.xml (784 B at 0.8 KB/sec)
+Downloading: http://maven-repository.ubs.net/com/ubs/KDU/KDU_CassrBuild/1.1.0.31-SNAPSHOT/maven-metadata.xml
+608/608 B               Downloaded: http://maven-repository.ubs.net/com/ubs/KDU/KDU_CassrBuild/1.1.0.31-SNAPSHOT/maven-metadata.xml (608 B at 1.7 KB/sec)
+Downloading: http://maven-repository.ubs.net/com/ubs/KDU/KDU_CassrConfig/1.1.0.31-SNAPSHOT/maven-metadata.xml
+785/785 B               Downloaded: http://maven-repository.ubs.net/com/ubs/KDU/KDU_CassrConfig/1.1.0.31-SNAPSHOT/maven-metadata.xml (785 B at 2.1 KB/sec)
+Downloading: http://maven-repository.ubs.net/com/ubs/KDU/KDU_CassrDb/1.1.0.31-SNAPSHOT/maven-metadata.xml
+781/781 B               Downloaded: http://maven-repository.ubs.net/com/ubs/KDU/KDU_CassrDb/1.1.0.31-SNAPSHOT/maven-metadata.xml (781 B at 1.8 KB/sec)
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ KDU_CassrManagement ---
+[INFO] Deleting C:\Users\t426323\sts33_git\KDU_CassrBuild\KDU_CassrManagement\target (includes = [**/*], excludes = [])
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-banned-dependencies-build-plugin-management) @ KDU_CassrManagement ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (echo properties) @ KDU_CassrManagement ---
+Downloading: http://maven-repository.ubs.net/org/eclipse/equinox/preferences/maven-metadata.xml
+702/702 B               Downloaded: http://maven-repository.ubs.net/org/eclipse/equinox/preferences/maven-metadata.xml (702 B at 6.9 KB/sec)
+Downloading: http://maven-repository.ubs.net/org/eclipse/equinox/common/maven-metadata.xml
+688/688 B               Downloaded: http://maven-repository.ubs.net/org/eclipse/equinox/common/maven-metadata.xml (688 B at 6.5 KB/sec)
+Downloading: http://maven-repository.ubs.net/org/eclipse/equinox/registry/maven-metadata.xml
+695/695 B               Downloaded: http://maven-repository.ubs.net/org/eclipse/equinox/registry/maven-metadata.xml (695 B at 5.8 KB/sec)
+Downloading: http://maven-repository.ubs.net/org/eclipse/core/expressions/maven-metadata.xml
+488/488 B               Downloaded: http://maven-repository.ubs.net/org/eclipse/core/expressions/maven-metadata.xml (488 B at 5.7 KB/sec)
+Downloading: http://maven-repository.ubs.net/org/eclipse/core/runtime/maven-metadata.xml
+721/721 B               Downloaded: http://maven-repository.ubs.net/org/eclipse/core/runtime/maven-metadata.xml (721 B at 8.7 KB/sec)
+Downloading: http://maven-repository.ubs.net/org/eclipse/osgi/maven-metadata.xml
+2/2 KB               Downloaded: http://maven-repository.ubs.net/org/eclipse/osgi/maven-metadata.xml (2 KB at 19.6 KB/sec)
+Downloading: http://maven-repository.ubs.net/org/eclipse/osgi/3.4.0.v20080605-1900/osgi-3.4.0.v20080605-1900.pom
+         [WARNING] The POM for org.eclipse:osgi:jar:3.4.0.v20080605-1900 is missing, no dependency information available
+Downloading: http://maven-repository.ubs.net/org/eclipse/core/jobs/maven-metadata.xml
+656/656 B               Downloaded: http://maven-repository.ubs.net/org/eclipse/core/jobs/maven-metadata.xml (656 B at 6.5 KB/sec)
+Downloading: http://maven-repository.ubs.net/org/eclipse/core/contenttype/maven-metadata.xml
+615/615 B               Downloaded: http://maven-repository.ubs.net/org/eclipse/core/contenttype/maven-metadata.xml (615 B at 6.8 KB/sec)
+Downloading: http://maven-repository.ubs.net/org/eclipse/equinox/app/maven-metadata.xml
+652/652 B               Downloaded: http://maven-repository.ubs.net/org/eclipse/equinox/app/maven-metadata.xml (652 B at 8.0 KB/sec)
+Downloading: http://maven-repository.ubs.net/org/eclipse/core/filesystem/maven-metadata.xml
+630/630 B               Downloaded: http://maven-repository.ubs.net/org/eclipse/core/filesystem/maven-metadata.xml (630 B at 6.7 KB/sec)
+Downloading: http://maven-repository.ubs.net/org/eclipse/core/filesystem/1.0.100-v20070430/filesystem-1.0.100-v20070430.pom
+            [WARNING] The POM for org.eclipse.core:filesystem:jar:1.0.100-v20070430 is missing, no dependency information available
+Downloading: http://maven-repository.ubs.net/org/eclipse/core/filesystem/1.0.100-v20070510/filesystem-1.0.100-v20070510.pom
+            [WARNING] The POM for org.eclipse.core:filesystem:jar:1.0.100-v20070510 is missing, no dependency information available
+Downloading: http://maven-repository.ubs.net/org/eclipse/core/filesystem/1.1.0-v20070416/filesystem-1.1.0-v20070416.pom
+            [WARNING] The POM for org.eclipse.core:filesystem:jar:1.1.0-v20070416 is missing, no dependency information available
+Downloading: http://maven-repository.ubs.net/org/eclipse/core/filesystem/1.1.0-v20070510/filesystem-1.1.0-v20070510.pom
+            [WARNING] The POM for org.eclipse.core:filesystem:jar:1.1.0-v20070510 is missing, no dependency information available
+Downloading: http://maven-repository.ubs.net/org/eclipse/osgi/v20080605-1900/osgi-v20080605-1900.pom
+            [WARNING] The POM for org.eclipse:osgi:jar:v20080605-1900 is missing, no dependency information available
+Downloading: http://maven-repository.ubs.net/org/eclipse/core/resources/maven-metadata.xml
+623/623 B               Downloaded: http://maven-repository.ubs.net/org/eclipse/core/resources/maven-metadata.xml (623 B at 5.6 KB/sec)
+Downloading: http://maven-repository.ubs.net/org/eclipse/core/runtime/compatibility/maven-metadata.xml
+483/483 B               Downloaded: http://maven-repository.ubs.net/org/eclipse/core/runtime/compatibility/maven-metadata.xml (483 B at 5.5 KB/sec)
+Downloading: http://maven-repository.ubs.net/org/eclipse/update/configurator/maven-metadata.xml
+517/517 B               Downloaded: http://maven-repository.ubs.net/org/eclipse/update/configurator/maven-metadata.xml (517 B at 5.1 KB/sec)
+Downloading: http://maven-repository.ubs.net/org/eclipse/core/resources/3.2.100-v20070502/resources-3.2.100-v20070502.pom
+            [WARNING] The POM for org.eclipse.core:resources:jar:3.2.100-v20070502 is missing, no dependency information available
+Downloading: http://maven-repository.ubs.net/org/eclipse/core/resources/3.3.0-v20070226/resources-3.3.0-v20070226.pom
+            [WARNING] The POM for org.eclipse.core:resources:jar:3.3.0-v20070226 is missing, no dependency information available
+Downloading: http://maven-repository.ubs.net/org/eclipse/text/maven-metadata.xml
+553/553 B               Downloaded: http://maven-repository.ubs.net/org/eclipse/text/maven-metadata.xml (553 B at 4.9 KB/sec)
+Downloading: http://maven-repository.ubs.net/org/eclipse/core/commands/maven-metadata.xml
+516/516 B               Downloaded: http://maven-repository.ubs.net/org/eclipse/core/commands/maven-metadata.xml (516 B at 4.9 KB/sec)
+Downloading: http://maven-repository.ubs.net/org/eclipse/core/commands/3.3.0-I20070523-1500/commands-3.3.0-I20070523-1500.pom
+            [WARNING] The POM for org.eclipse.core:commands:jar:3.3.0-I20070523-1500 is missing, no dependency information available
+[INFO] Executing tasks
+
+main:
+     [echo] Actual parameters are:
+     [echo]                                     security-env is "development"
+     [echo]                                     db-type is "${db-type}"
+     [echo]                                     exclude-tests is "${exclude-tests}"
+     [echo]                                     exclude-tests-dbs is "${exclude-tests-dbs}"
+     [echo]                                     java.home is "C:\Program Files\OSS\JDK17055\jre"
+     [echo]                                     centralbuild.server is "${centralbuild.server}"
+     [echo]                                     Maven repository is "http://maven-repository.ubs.net/"
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- properties-maven-plugin:1.0.0:set-system-properties (default) @ KDU_CassrManagement ---
+[INFO] Set 7 system properties
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.10:properties (default) @ KDU_CassrManagement ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ KDU_CassrManagement ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 6 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ KDU_CassrManagement ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 361 source files to C:\Users\t426323\sts33_git\KDU_CassrBuild\KDU_CassrManagement\target\classes
+[INFO] /C:/Users/t426323/sts33_git/KDU_CassrBuild/KDU_CassrManagement/src/main/java/com/ubs/kdu/data/ApplicationData.java: Some input files use or override a deprecated API.
+[INFO] /C:/Users/t426323/sts33_git/KDU_CassrBuild/KDU_CassrManagement/src/main/java/com/ubs/kdu/data/ApplicationData.java: Recompile with -Xlint:deprecation for details.
+[INFO] /C:/Users/t426323/sts33_git/KDU_CassrBuild/KDU_CassrManagement/src/main/java/com/ubs/kdu/data/ApplicationData.java: Some input files use unchecked or unsafe operations.
+[INFO] /C:/Users/t426323/sts33_git/KDU_CassrBuild/KDU_CassrManagement/src/main/java/com/ubs/kdu/data/ApplicationData.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ KDU_CassrManagement ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 66 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ KDU_CassrManagement ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 203 source files to C:\Users\t426323\sts33_git\KDU_CassrBuild\KDU_CassrManagement\target\test-classes
+[INFO] /C:/Users/t426323/sts33_git/KDU_CassrBuild/KDU_CassrManagement/src/test/java/com/ubs/kdu/AbstractKduIntegrationTest.java: Some input files use or override a deprecated API.
+[INFO] /C:/Users/t426323/sts33_git/KDU_CassrBuild/KDU_CassrManagement/src/test/java/com/ubs/kdu/AbstractKduIntegrationTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] /C:/Users/t426323/sts33_git/KDU_CassrBuild/KDU_CassrManagement/src/test/java/com/ubs/kdu/util/CassrListUtilsTest.java: Some input files use unchecked or unsafe operations.
+[INFO] /C:/Users/t426323/sts33_git/KDU_CassrBuild/KDU_CassrManagement/src/test/java/com/ubs/kdu/util/CassrListUtilsTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ KDU_CassrManagement ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:3.0.0:jar (default-jar) @ KDU_CassrManagement ---
+[INFO] Building jar: C:\Users\t426323\sts33_git\KDU_CassrBuild\KDU_CassrManagement\target\KDU_CassrManagement-1.1.0.31-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-jar-plugin:3.0.0:test-jar (default) @ KDU_CassrManagement ---
+[INFO] Building jar: C:\Users\t426323\sts33_git\KDU_CassrBuild\KDU_CassrManagement\target\KDU_CassrManagement-1.1.0.31-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ KDU_CassrManagement ---
+[INFO] Installing C:\Users\t426323\sts33_git\KDU_CassrBuild\KDU_CassrManagement\target\KDU_CassrManagement-1.1.0.31-SNAPSHOT.jar to C:\UBS\Dev\Data\Maven\repo\com\ubs\KDU\KDU_CassrManagement\1.1.0.31-SNAPSHOT\KDU_CassrManagement-1.1.0.31-SNAPSHOT.jar
+[INFO] Installing C:\Users\t426323\sts33_git\KDU_CassrBuild\KDU_CassrManagement\pom.xml to C:\UBS\Dev\Data\Maven\repo\com\ubs\KDU\KDU_CassrManagement\1.1.0.31-SNAPSHOT\KDU_CassrManagement-1.1.0.31-SNAPSHOT.pom
+[INFO] Installing C:\Users\t426323\sts33_git\KDU_CassrBuild\KDU_CassrManagement\target\KDU_CassrManagement-1.1.0.31-SNAPSHOT-tests.jar to C:\UBS\Dev\Data\Maven\repo\com\ubs\KDU\KDU_CassrManagement\1.1.0.31-SNAPSHOT\KDU_CassrManagement-1.1.0.31-SNAPSHOT-tests.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 55.980 s
+[INFO] Finished at: 2016-09-11T10:51:32+02:00
+[INFO] Final Memory: 38M/304M
+[INFO] ------------------------------------------------------------------------
